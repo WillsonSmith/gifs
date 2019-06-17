@@ -7,6 +7,8 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "start": "node search.js"
+  },
+  "devDependencies": {
+    "alfy": "^0.8.0"
   }
 }

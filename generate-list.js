@@ -17,7 +17,7 @@ const getGifsList = async () => {
 const getSavedGifs = async () => {
   const directoryPath = path.join(__dirname, 'gifs');
   const files = await readdir(directoryPath);
-  return files;
+  return files.filter(name => name !== '.DS_Store');
 }
 
 const getTagsFromName = (name) => {

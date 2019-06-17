@@ -8,7 +8,9 @@
   "dependencies": {
     "json-align": "^0.1.0"
   },
-  "scripts": {},
+  "scripts": {
+    "update": "node generate-list.js"
+  },
   "devDependencies": {
     "alfy": "^0.8.0"
   }

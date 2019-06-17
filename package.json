@@ -5,7 +5,8 @@
   "repository": "https://github.com/WillsonSmith/gifs.git",
   "author": "Willson Smith <me@willsonsmith.com>",
   "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.6.0"
+  "dependencies": {},
+  "scripts": {
+    "start": "node search.js"
   }
 }

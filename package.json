@@ -5,9 +5,10 @@
   "repository": "https://github.com/WillsonSmith/gifs.git",
   "author": "Willson Smith <me@willsonsmith.com>",
   "license": "MIT",
-  "dependencies": {},
-  "scripts": {
+  "dependencies": {
+    "json-align": "^0.1.0"
   },
+  "scripts": {},
   "devDependencies": {
     "alfy": "^0.8.0"
   }

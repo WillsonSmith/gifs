@@ -171,6 +171,11 @@ clone-response@1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
+commander@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.0.0.tgz#d1b86f901f8b64bd941bdeadaf924530393be928"
+  integrity sha1-0bhvkB+LZL2UG96tr5JFMDk76Sg=
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -606,6 +611,13 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
+
+json-align@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/json-align/-/json-align-0.1.0.tgz#be7879795320dd53e7af6f836e5c2b35c9f1eb50"
+  integrity sha1-vnh5eVMg3VPnr2+DblwrNcnx61A=
+  dependencies:
+    commander "~2.0.0"
 
 json-buffer@3.0.0:
   version "3.0.0"
